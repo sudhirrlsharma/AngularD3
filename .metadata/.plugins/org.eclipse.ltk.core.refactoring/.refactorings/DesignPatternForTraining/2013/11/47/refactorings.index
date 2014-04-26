@@ -1,0 +1,19 @@
+1384705523573	Move compilation units
+1384705564570	Rename type 'TestCorporation'
+1384706614789	Delete element
+1384706622517	Rename compilation unit 'AbstractChatroom.java'
+1384706930197	Rename field '_chatroom'
+1384706939603	Rename field '_name'
+1384707071192	Rename field '_participants'
+1384710283285	Rename field '_investors'
+1384711886870	Copy compilation unit
+1384712063842	Copy compilation unit
+1384712208164	Rename method 'StateChangeCheck'
+1384712221969	Rename method 'StateChangeCheck'
+1384712232464	Rename method 'StateChangeCheck'
+1384712824647	Rename package 'stratagy.bad'
+1384712833754	Rename package 'stratagy.good'
+1384886521481	Rename type 'Memento'
+1384888298498	Delete elements
+1384889138494	Copy compilation units
+1384889472924	Copy compilation unit

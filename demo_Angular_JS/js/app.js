@@ -1,6 +1,6 @@
 'use strict';
 var greetingApp = angular.module('greetingApp',[]);
-var beerApp = angular.module('beerApp', ['ngRoute','ngResource']);
+var beerApp = angular.module('beerApp', ['ngRoute','ngResource','ngGrid']);
 
 beerApp.config(['$routeProvider',
     function($routeProvider) {

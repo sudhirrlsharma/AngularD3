@@ -1,7 +1,10 @@
 'use strict';
 
-beerApp.controller('listBeerCtrl', function ($scope, beerService) {
+beerApp.controller('listBeerCtrl', function ($scope, beerService,$log) {
+	 $log.info('I am in controller');
     $scope.beers = beerService.getBeers();
+    console.log($scope);
+    $scope.gridOptions = { data: 'beers' };
 
 });
 

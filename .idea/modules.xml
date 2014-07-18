@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AngularD3.iml" filepath="$PROJECT_DIR$/.idea/AngularD3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/demo_Angular_JS.iml" filepath="$PROJECT_DIR$/.idea/demo_Angular_JS.iml" />
     </modules>
   </component>
 </project>

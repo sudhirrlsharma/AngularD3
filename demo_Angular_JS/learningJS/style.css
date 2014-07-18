@@ -1,0 +1,43 @@
+body{
+	with: 600px;
+	margin: auto; 
+	font:sans-serif;
+
+}
+#container{
+	background: #e3e3e3;
+	padding: 1em 2em;
+	position: relative;
+	
+}
+
+.js #container{
+	position: absolute;
+	top: 0;
+	width: inherit;
+	display: none;
+}
+
+#container h2 { margin-top: 0; }
+
+#container ul { padding: 0; }
+
+#container li { 
+		list-style: none;
+		margin-bottom: 1em;
+}
+
+/* Close button on form */
+	.close {
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		font-weight: bold;
+		font-family: sans-serif;
+		cursor: pointer;
+	}	
+
+		/* Form inputs */
+	input, textarea { width: 100%; line-height: 2em;}
+	input[type=submit] { width: auto;  }
+	label { display: block; text-align: left; }

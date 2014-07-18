@@ -1,5 +1,0 @@
-package stratagy.good;
-
-public interface GoAlgorithm {
-	public void go();
-}

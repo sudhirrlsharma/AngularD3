@@ -1,5 +1,5 @@
 describe('Test for BeerCtrl', function() {
-	var scope;//we'll use this scope in our tests
+	var scope; //we'll use this scope in our tests
 	
 	var beerServiceMock;
 	
@@ -12,7 +12,8 @@ describe('Test for BeerCtrl', function() {
 	);
 
 	it('should populate the list of beer', function() {
-		var scope = {}, ctrl = new listBeerCtrl(scope,beerService);
+		var scope = {};
+		var ctrl = new listBeerCtrl(scope,beerServiceMock);
 		expect(scope.mainpage).toEqual(someMainPageMock);
 	});
 });

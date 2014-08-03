@@ -1,0 +1,19 @@
+<html>
+<head>
+ <title> Login Page</title>
+  <link rel="stylesheet" type="text/css" href="/css/login.css"/>
+</head>
+
+<h2>Login Form</h2>
+
+<form name="login" ng-app="LoginController" ng-submit="login(credentials)" novalidate>
+
+		<dl><label for = "UserName"> User Name</label>
+		<input ng-model="UserName"/></dl>
+		<dl><label for = "Password">Password</label>
+		<input ng-model="Password"></dl>
+	<dl><button type = "submit" name = "Submit" value = "Submit"> Submit </button>
+	<button type = "reset" name = "reset" value = "reset"> Reset </button></dl> 
+</form>
+
+</html>

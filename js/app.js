@@ -14,7 +14,7 @@ beerApp.config(['$routeProvider',
                 controller: 'listBeerCtrl'
             })
             .otherwise({
-                redirectTo:'/beers'
+                redirectTo:'/login.html'
             });
 
     }]);

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="utf-8">
+  <title>Angular JS - Directives</title>
+  
+</head>
+<body ng-app="transcludeApp" ng-controller="MainCtrl">
+
+  <div output-text>
+     <p>Hello {{name}}</p>
+   </div>
+   <div output-text>
+     <p>I love {{hobby}}!!</p>
+   </div>
+   
+   
+   <p transclude-directive>Hello World!</p>
+
+	<script type="text/javascript" src="js/libs/angular/angular.min.js"></script>
+	<script type="text/javascript" src="js/transclude.js"></script>
+</body>
+</html>

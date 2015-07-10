@@ -1,0 +1,36 @@
+<html>
+    <head> 
+        <title>AngularJS watch example</title>
+        <link rel = "stylesheet" href="css/bootstrap.min.css"/>     
+       <script src = "js/jquery-1.11.2.min.js" ></script>
+      <script src = "js/angular.js" ></script>
+
+
+    </head>
+        
+    <body ng-app="myApp">  
+        
+                
+        <div class="container" ng-controller = "myAppController">
+            <div class = "col-md-12" >
+                
+               <clickable foo="foo" bar="bar"></clickable>
+  
+  {{ name }} <button ng-click="changeName()">Change name</button>
+        </div>
+        
+            
+            <div class = "col-md-12" >
+                <input ng-model="firstName" />
+  
+  name updated: {{updated}} times
+        </div>
+            
+        </div>
+        
+        
+   
+     <script src = "js/watchApp.js" ></script>
+         
+    </body>    
+</html>    

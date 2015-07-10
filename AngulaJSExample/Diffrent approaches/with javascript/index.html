@@ -1,0 +1,34 @@
+<HTML>
+<HEAD>
+<TITLE>JavaScript Form - Input Text Field</TITLE>
+
+</HEAD>
+<BODY onload="javascript: onloadCalled();">
+<FORM NAME="test">
+<div>
+<label>Name:</label>
+<input type="text" id="inputArea" placeholder="Enter a name here" value="World" onkeyup="updateValue();" > 
+<hr>
+<p id="showArea">Hello !</p>
+</div>
+
+</FORM>
+</BODY>
+<script type="text/javascript" charset="utf-8">
+
+function onloadCalled(){
+	
+	var inputSelector = document.getElementById("inputArea");
+	var showArea = document.getElementById("showArea");
+	
+	updateValue();
+}
+function updateValue(){
+	
+	var inputSelector = document.getElementById("inputArea");
+	var showArea = document.getElementById("showArea");
+	
+	showArea.innerHTML = "Hello " + inputSelector.value + " !";
+}
+</script>
+</HTML>

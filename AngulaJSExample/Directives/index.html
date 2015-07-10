@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="utf-8">
+  <title>Angular JS - Directives</title>
+ 
+</head>
+<body>
+
+  <div ng-app="phoneApp">
+    <div ng-controller="AppCtrl">
+        <phone number="9998123456" network="network" make-call="leaveVoicemail(number, message)"></phone>
+        <phone number="9428123456" network="network" make-call="leaveVoicemail(number, message)"></phone>
+        <phone number="9904123456" network="network" make-call="leaveVoicemail(number, message)"></phone>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/libs/angular/angular.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html>
+    <head> 
+        <title>AngularJS routing example</title>
+        <link rel = "stylesheet" href="css/bootstrap.min.css"/>     
+       <script src = "js/jquery-1.11.2.min.js" ></script>
+      <script src = "js/angular.js" ></script>
+        <script src = "js/angular-route.js"></script>
+
+
+    </head>
+        
+    <body ng-app="myApp">  
+        
+         <header>
+            
+            <nav class = "navbar navbar-default"   >
+                <div class = "container">
+                    <div class = "navbar-header">
+                        <a class="navbar-brand" href = "/">AngularJS</a>                    
+                    </div>
+                    
+                    <ul class="nav navbar-nav navbar-right" >
+                        <li> <a href = "#/"><i class = "fa fa-home "></i> Home</a></li>
+                        <li> <a href = "#/second">second</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+       
+        
+        
+        <div class="container">
+            <div ng-view> </div>
+        </div>
+        
+   
+     
+        <script src = "js/routingApp.js" ></script>
+    </body>    
+</html>    

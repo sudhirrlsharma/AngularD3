@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+<div>
+<label>Name:</label>
+<input type="text" ng-model="yourName" id="inputArea" placeholder="Enter a name here" value="World">
+<hr>
+<p id="showArea">Hello !</p>
+</div>
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function() {
+	var inputSelector = $("#inputArea");
+	var showArea = $("#showArea");
+	
+	updateValue();
+	
+	function updateValue(){
+		showArea.text("Hello " +  inputSelector.val() + " !");
+	}
+	
+	inputSelector.bind("keydown", function(){
+		setTimeout(updateValue , 0);
+	});
+});
+</script>
+</body>
+</html>
